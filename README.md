@@ -3,6 +3,7 @@
 A terminal-based music streaming application that lets you play songs directly from YouTube.
 
 ## Features
+
 - Search and play individual songs
 - Radio mode that plays a sequence of songs based on a search term
 - Live progress display with song title and playback time
@@ -10,11 +11,13 @@ A terminal-based music streaming application that lets you play songs directly f
 - Uses YouTube as a music source
 
 ## Requirements
+
 - Python 3
 - [mpv](https://mpv.io/) (system package)
 - YouTube API key (free from Google Cloud Console)
 
 ## Setup
+
 ```bash
 # Install system dependencies
 sudo apt install mpv
@@ -27,24 +30,21 @@ python3 the_music.py
 ```
 
 ## Usage
+
 1. Run the application:
+
 ```bash
 python3 the_music.py
 ```
 
-2. Use these commands:
+1. Use these commands:
+
 - Type a song name to play it
 - Type 'r' to start radio mode
 - Type 'q' to quit
 
-## Features
-- Single song playback
-- Radio mode that plays multiple songs
-- Progress bar with elapsed time
-- Song title display
-- Clean, minimal interface
-
 ## Notes
+
 - This project uses YouTube as a music source. Please respect YouTube's terms of service.
 - No music is downloaded; audio is streamed live.
 - You'll need a YouTube API key to use this application.
