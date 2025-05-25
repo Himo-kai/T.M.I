@@ -20,7 +20,7 @@ A terminal-based music streaming application that lets you play songs directly f
 
 ```bash
 # Install system dependencies
-sudo apt install mpv
+sudo pacman -S mpv
 
 # Set up YouTube API key
 export YOUTUBE_API_KEY='your_api_key_here'
