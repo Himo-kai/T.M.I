@@ -22,8 +22,6 @@ A terminal-based music streaming application that lets you play songs directly f
 # Install requirments
 pip install -r requirements.txt
 
-# or
-
 # Install system dependencies
 sudo pacman -S mpv
 
