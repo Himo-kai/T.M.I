@@ -167,8 +167,10 @@ def main():
                 print(f"\nPlaying now: {track['title']}")
                 play_track(track)
                 
-                if input("\nType 'q' to quit radio mode, or press Enter to continue: ").lower() == 'q':
-                    break
+                # Check if user wants to quit after each song
+                if sys.stdin in select.select([sys.stdin], [], [], 0)[0]:
+                    if input().lower() == 'q':
+                        break
 
         else:
             track_info = search_youtube(user_input)
